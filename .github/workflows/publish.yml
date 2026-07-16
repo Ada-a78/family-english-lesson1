@@ -22,6 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Read repository content
+        uses: actions/checkout@v4
       - name: Copy completed lesson
         shell: bash
         run: |
@@ -40,7 +42,7 @@ jobs:
               with urlopen(request, timeout=180) as response:
                   return response.read()
 
-          html = fetch(base)
+          html = Path("lesson1/index.html").read_bytes()
           (dist / "index.html").write_bytes(html)
 
           class Assets(HTMLParser):
