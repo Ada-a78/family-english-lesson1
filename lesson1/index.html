@@ -163,6 +163,6 @@ for(var b=0;b<buttons.length;b+=1){buttons[b].onclick=function(){setSpeed(Number
 for(var m=0;m<media.length;m+=1){media[m].addEventListener('loadedmetadata',function(){applySpeed(this);});media[m].addEventListener('play',function(){applySpeed(this);});}
 setSpeed(1);
 function copyFallback(url,result){var box=document.createElement('textarea');box.value=url;box.setAttribute('readonly','');box.style.position='fixed';box.style.left='-9999px';box.style.top='0';box.style.fontSize='16px';document.body.appendChild(box);box.focus();box.select();box.setSelectionRange(0,box.value.length);var copied=false;try{copied=document.execCommand('copy');}catch(error){copied=false;}document.body.removeChild(box);if(copied){result.textContent='已复制，请到微信粘贴发送';}else{result.textContent='请长按复制弹窗里的网址';window.prompt('复制下面的网址，再粘贴到微信：',url);}}
-function copyPageLink(){var url=window.location.href;var result=document.getElementById('copyResult');if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(url).then(function(){result.textContent='已复制，请到微信粘贴发送';},function(){copyFallback(url,result);});}else{copyFallback(url,result);}}
+function copyPageLink(){copyFallback(window.location.href,document.getElementById('copyResult'));}
 document.getElementById('copyLink').onclick=copyPageLink;
 </script></body></html>
