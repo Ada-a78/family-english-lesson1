@@ -1,0 +1,75 @@
+name: Publish Lesson 1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/publish.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy completed lesson
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import quote, unquote, urljoin, urlparse
+          from urllib.request import Request, urlopen
+
+          base = "https://ada-family-english-6-2026.gaoxue3028522.chatgpt.site/lesson1/"
+          dist = Path("dist")
+          dist.mkdir(exist_ok=True)
+
+          def fetch(url):
+              request = Request(quote(url, safe=":/"), headers={"User-Agent": "Mozilla/5.0"})
+              with urlopen(request, timeout=180) as response:
+                  return response.read()
+
+          html = fetch(base)
+          (dist / "index.html").write_bytes(html)
+
+          class Assets(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.urls = set()
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if key in {"src", "poster"} and value:
+                          self.urls.add(urljoin(base, value))
+
+          parser = Assets()
+          parser.feed(html.decode("utf-8"))
+          for url in sorted(parser.urls):
+              path = unquote(urlparse(url).path)
+              rel = path.split("/lesson1/", 1)[1]
+              target = dist / rel
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(fetch(url))
+              print(target)
+          PY
+          test -s dist/index.html
+          test -s "dist/发微信用视频/03-1倍-完整教学视频.mp4"
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
