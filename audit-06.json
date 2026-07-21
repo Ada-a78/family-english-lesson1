@@ -1,0 +1,156 @@
+{
+  "policy_version": "think-share-sentence-pair-v1",
+  "pair_count": 16,
+  "english_without_chinese_count": 0,
+  "chinese_without_english_count": 0,
+  "multi_sentence_paragraph_count": 0,
+  "adjacent_pair_count": 16,
+  "audio_order": "English -> Chinese",
+  "status": "passed",
+  "pairs": [
+    {
+      "context": "think_share.pages[1].pairs[1]",
+      "page_title": "先听懂任务",
+      "english": "How was your summer vacation?",
+      "chinese": "你的暑假过得怎么样？",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[1].pairs[2]",
+      "page_title": "先听懂任务",
+      "english": "Talk about your summer vacation with your friends.",
+      "chinese": "和朋友谈一谈你的暑假。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[1].pairs[3]",
+      "page_title": "先听懂任务",
+      "english": "You may use the words in the word bank.",
+      "chinese": "你可以使用词库里的表达。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[2].pairs[1]",
+      "page_title": "第1步：先说感受",
+      "english": "Hi! How was your summer vacation?",
+      "chinese": "嗨！你的暑假过得怎么样？",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[2].pairs[2]",
+      "page_title": "第1步：先说感受",
+      "english": "It was fun.",
+      "chinese": "暑假很有趣。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[2].pairs[3]",
+      "page_title": "第1步：先说感受",
+      "english": "It was wonderful.",
+      "chinese": "暑假很精彩。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[3].pairs[1]",
+      "page_title": "第2步：再说地点",
+      "english": "Where did you go?",
+      "chinese": "你去了哪里？",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[3].pairs[2]",
+      "page_title": "第2步：再说地点",
+      "english": "I went to my grandparents’ home.",
+      "chinese": "我去了祖父母家。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[3].pairs[3]",
+      "page_title": "第2步：再说地点",
+      "english": "I went to a park.",
+      "chinese": "我去了公园。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[4].pairs[1]",
+      "page_title": "第3步：最后说活动",
+      "english": "What did you do there?",
+      "chinese": "你在那里做了什么？",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[4].pairs[2]",
+      "page_title": "第3步：最后说活动",
+      "english": "I went swimming.",
+      "chinese": "我去游泳了。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.pages[4].pairs[3]",
+      "page_title": "第3步：最后说活动",
+      "english": "I visited a museum.",
+      "chinese": "我参观了一家博物馆。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[1]",
+      "page_title": "完整示范 1 / 2",
+      "english": "My summer vacation was fun.",
+      "chinese": "我的暑假很有趣。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[2]",
+      "page_title": "完整示范 1 / 2",
+      "english": "I went to my grandparents’ home.",
+      "chinese": "我去了祖父母家。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[1]",
+      "page_title": "完整示范 2 / 2",
+      "english": "I played basketball with my cousin.",
+      "chinese": "我和表兄弟一起打了篮球。",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[2]",
+      "page_title": "完整示范 2 / 2",
+      "english": "How about you?",
+      "chinese": "你呢？",
+      "adjacent_on_same_card": true,
+      "audio_order": "English -> Chinese",
+      "status": "passed"
+    }
+  ]
+}

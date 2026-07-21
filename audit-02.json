@@ -1,0 +1,1308 @@
+{
+  "policy_version": 2,
+  "scope": "all_synthesized_content",
+  "inventory_reviewed": true,
+  "source_corpus_scanned": true,
+  "lexicon_sources": [
+    "book_master: 教材/多语言专名发音主词典.json（109/109页全书扫描）",
+    "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）",
+    "external_delta: 本课未提供课外资源"
+  ],
+  "synthesis_context_count": 102,
+  "proper_noun_occurrence_count": 45,
+  "language_switch_counts": {
+    "zh-CN": 31,
+    "en-US": 14
+  },
+  "glossary": [
+    {
+      "display": "Mike",
+      "aliases": [],
+      "native_form": "Mike",
+      "spoken_text": "Mike",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；多课主对话",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 8
+    },
+    {
+      "display": "Baobao",
+      "aliases": [],
+      "native_form": "宝宝",
+      "spoken_text": "宝宝",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 8
+    },
+    {
+      "display": "Yangyang",
+      "aliases": [],
+      "native_form": "阳阳",
+      "spoken_text": "阳阳",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 7
+    },
+    {
+      "display": "Ms Wang",
+      "aliases": [
+        "Ms. Wang"
+      ],
+      "native_form": "王老师",
+      "spoken_text": "王老师",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "teacher",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Canada",
+      "aliases": [],
+      "native_form": "Canada",
+      "spoken_text": "Canada",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "source_locations": [
+        "Unit 1 Lesson 1 与 Lesson 4",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 6
+    },
+    {
+      "display": "Northeast China",
+      "aliases": [],
+      "native_form": "中国东北",
+      "spoken_text": "中国东北",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 5
+    },
+    {
+      "display": "China",
+      "aliases": [],
+      "native_form": "中国",
+      "spoken_text": "中国",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "country",
+      "source_locations": [
+        "全书多课与书后 Word List",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Beijing",
+      "aliases": [],
+      "native_form": "北京",
+      "spoken_text": "北京",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lessons 1–2",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 3
+    },
+    {
+      "display": "Dalian",
+      "aliases": [],
+      "native_form": "大连",
+      "spoken_text": "大连",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 1
+    },
+    {
+      "display": "Tianchi Lake",
+      "aliases": [],
+      "native_form": "天池",
+      "spoken_text": "天池",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 3
+    },
+    {
+      "display": "Changbai Mountain",
+      "aliases": [],
+      "native_form": "长白山",
+      "spoken_text": "长白山",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 1
+    },
+    {
+      "display": "Beijicun",
+      "aliases": [],
+      "native_form": "北极村",
+      "spoken_text": "北极村",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 2
+    },
+    {
+      "display": "Mohe",
+      "aliases": [],
+      "native_form": "漠河",
+      "spoken_text": "漠河",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 1
+    },
+    {
+      "display": "Shanghai",
+      "aliases": [],
+      "native_form": "上海",
+      "spoken_text": "上海",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Hangzhou",
+      "aliases": [],
+      "native_form": "杭州",
+      "spoken_text": "杭州",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank",
+        "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）"
+      ],
+      "synthesized_occurrences": 0
+    }
+  ],
+  "contexts": [
+    {
+      "context": "dialogue[1].english",
+      "text": "Hello, Baobao and Yangyang!",
+      "matches": [
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[2].english",
+      "text": "Hi, Mike! How was your summer vacation? Where did you go?",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[3].english",
+      "text": "It was good! I went to see my grandparents in Canada. I stayed with them for three weeks. What about you, Baobao?",
+      "matches": [
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        },
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[4].english",
+      "text": "I visited some places in Northeast China with my family. We had a good time there.",
+      "matches": [
+        {
+          "matched_form": "Northeast China",
+          "display": "Northeast China",
+          "spoken_text": "中国东北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[5].english",
+      "text": "Sounds fun. What did you do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[6].english",
+      "text": "We went to a beach in Dalian, walked along Tianchi Lake on Changbai Mountain, and visited Beijicun in Mohe.",
+      "matches": [
+        {
+          "matched_form": "Dalian",
+          "display": "Dalian",
+          "spoken_text": "大连",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        },
+        {
+          "matched_form": "Tianchi Lake",
+          "display": "Tianchi Lake",
+          "spoken_text": "天池",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        },
+        {
+          "matched_form": "Changbai Mountain",
+          "display": "Changbai Mountain",
+          "spoken_text": "长白山",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        },
+        {
+          "matched_form": "Beijicun",
+          "display": "Beijicun",
+          "spoken_text": "北极村",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        },
+        {
+          "matched_form": "Mohe",
+          "display": "Mohe",
+          "spoken_text": "漠河",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[7].english",
+      "text": "Wow, that's wonderful!",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[8].english",
+      "text": "How was your vacation, Yangyang? Where did you go? What did you do there?",
+      "matches": [
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[9].english",
+      "text": "I stayed in Beijing and had a great time, too. My friends and I joined a sports club. We played ping-pong and went swimming together.",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "北京",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[10].english",
+      "text": "Cool! We all enjoyed our summer vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[1].sentence_model",
+      "text": "I visited some places in Northeast China.",
+      "matches": [
+        {
+          "matched_form": "Northeast China",
+          "display": "Northeast China",
+          "spoken_text": "中国东北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[1].target_model",
+      "text": "visited",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[2].sentence_model",
+      "text": "We walked along Tianchi Lake.",
+      "matches": [
+        {
+          "matched_form": "Tianchi Lake",
+          "display": "Tianchi Lake",
+          "spoken_text": "天池",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[2].target_model",
+      "text": "walked",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[3].sentence_model",
+      "text": "We all enjoyed our summer vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.self_correction[3].target_model",
+      "text": "enjoyed",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[1].question",
+      "text": "Where did Mike go?",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[1].answer",
+      "text": "Mike went to Canada.",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[1].question",
+      "text": "How was their summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[1].answer",
+      "text": "It was good. They all enjoyed their summer vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[2].question",
+      "text": "Where did they go?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[2].answer",
+      "text": "Mike went to Canada. Baobao visited Northeast China. Yangyang stayed in Beijing.",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        },
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Northeast China",
+          "display": "Northeast China",
+          "spoken_text": "中国东北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        },
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "北京",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[3].question",
+      "text": "What did they do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[3].answer",
+      "text": "Mike saw his grandparents. Baobao visited some places. Yangyang played sports with his friends.",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[1].prompt",
+      "text": "How was your summer vacation, Mike? Where did you go?",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[1].answer",
+      "text": "It was good. I went to Canada.",
+      "matches": [
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[2].prompt",
+      "text": "What did you do there, Baobao?",
+      "matches": [
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[2].answer",
+      "text": "I went to a beach and visited some places.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[3].prompt",
+      "text": "What did you do in Beijing, Yangyang?",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "北京",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        },
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[3].answer",
+      "text": "I played ping-pong and went swimming with my friends.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[2].question",
+      "text": "Baobao visited ...",
+      "matches": [
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[2].answer",
+      "text": "Baobao visited Northeast China.",
+      "matches": [
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Northeast China",
+          "display": "Northeast China",
+          "spoken_text": "中国东北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[1].english",
+      "text": "How was your summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[2].english",
+      "text": "Talk about your summer vacation with your friends.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[3].english",
+      "text": "You may use the words in the word bank.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[1].english",
+      "text": "Hi! How was your summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[2].english",
+      "text": "It was fun.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[3].english",
+      "text": "It was wonderful.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[1].english",
+      "text": "Where did you go?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[2].english",
+      "text": "I went to my grandparents’ home.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[3].english",
+      "text": "I went to a park.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[1].english",
+      "text": "What did you do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[2].english",
+      "text": "I went swimming.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[3].english",
+      "text": "I visited a museum.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[1].english",
+      "text": "My summer vacation was fun.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[2].english",
+      "text": "I went to my grandparents’ home.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[1].english",
+      "text": "I played basketball with my cousin.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[2].english",
+      "text": "How about you?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].headword",
+      "text": "wonderful",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].collocation",
+      "text": "a wonderful vacation",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].sentence",
+      "text": "We had a wonderful vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].headword_repeat",
+      "text": "wonderful",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].headword",
+      "text": "exciting",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].collocation",
+      "text": "an exciting game",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].sentence",
+      "text": "The trip was exciting.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].headword_repeat",
+      "text": "exciting",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].headword",
+      "text": "go swimming",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].collocation",
+      "text": "go swimming together",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].sentence",
+      "text": "We went swimming together.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].headword_repeat",
+      "text": "go swimming",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].headword",
+      "text": "visit a museum",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].collocation",
+      "text": "visit a science museum",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].sentence",
+      "text": "I visited a museum with my family.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].headword_repeat",
+      "text": "visit a museum",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].headword",
+      "text": "play on a beach",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].collocation",
+      "text": "play on the beach",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].sentence",
+      "text": "The children played on the beach.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].headword_repeat",
+      "text": "play on a beach",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[3].question",
+      "text": "What did Yangyang do with his friends?",
+      "matches": [
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[3].answer",
+      "text": "He played ping-pong and went swimming.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[1].examples[1]",
+      "text": "How was your summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[1].examples[2]",
+      "text": "It was good.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[2].examples[1]",
+      "text": "Where did you go?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[2].examples[2]",
+      "text": "What did you do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].examples[1]",
+      "text": "visit → visited; stay → stayed; play → played",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].examples[2]",
+      "text": "go → went; have → had",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].letter_names[1]",
+      "text": "a",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].letter_names[2]",
+      "text": "y",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[1]",
+      "text": "stay",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[2]",
+      "text": "play",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[3]",
+      "text": "day",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[4]",
+      "text": "way",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].letter_names[1]",
+      "text": "o",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].letter_names[2]",
+      "text": "o",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[1]",
+      "text": "good",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[2]",
+      "text": "book",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[3]",
+      "text": "look",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[4]",
+      "text": "foot",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].letter_names[1]",
+      "text": "e",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].letter_names[2]",
+      "text": "a",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].examples[1]",
+      "text": "beach",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].examples[2]",
+      "text": "teach",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].examples[3]",
+      "text": "read",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[3].examples[4]",
+      "text": "seat",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[4].question",
+      "text": "Retell one summer vacation story: where and what.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "retrieval_practice.checkpoints[4].answer",
+      "text": "Mike went to Canada and stayed with his grandparents for three weeks.",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[1].question",
+      "text": "Where did Mike go?",
+      "matches": [
+        {
+          "matched_form": "Mike",
+          "display": "Mike",
+          "spoken_text": "Mike",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[1].answer",
+      "text": "He went to Canada.",
+      "matches": [
+        {
+          "matched_form": "Canada",
+          "display": "Canada",
+          "spoken_text": "Canada",
+          "spoken_language": "en-US",
+          "origin_language": "en-US",
+          "verification_status": "verified",
+          "category": "country"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[2].question",
+      "text": "What did Baobao do in Northeast China?",
+      "matches": [
+        {
+          "matched_form": "Baobao",
+          "display": "Baobao",
+          "spoken_text": "宝宝",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Northeast China",
+          "display": "Northeast China",
+          "spoken_text": "中国东北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[2].answer",
+      "text": "He went to a beach, walked along Tianchi Lake, and visited Beijicun.",
+      "matches": [
+        {
+          "matched_form": "Tianchi Lake",
+          "display": "Tianchi Lake",
+          "spoken_text": "天池",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        },
+        {
+          "matched_form": "Beijicun",
+          "display": "Beijicun",
+          "spoken_text": "北极村",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "scenic_place"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[3].question",
+      "text": "What did Yangyang do with his friends?",
+      "matches": [
+        {
+          "matched_form": "Yangyang",
+          "display": "Yangyang",
+          "spoken_text": "阳阳",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[3].answer",
+      "text": "He played ping-pong and went swimming.",
+      "matches": [],
+      "segmentation_applied": true
+    }
+  ],
+  "unsegmented_known_occurrences": [],
+  "unresolved_pronunciations": []
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "lesson1",
+  "version": "latest-l2-standard-20260721-v1",
+  "master_video": "lesson1-latest-l2-standard-20260721-v1.mp4",
+  "master_video_bytes": 22262499,
+  "interactive_speed_buttons": [
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5,
+    1.75,
+    2
+  ],
+  "default_speed": 1,
+  "seek_seconds": 15,
+  "ascii_public_asset_paths": true,
+  "copied_asset_count": 37
+}
