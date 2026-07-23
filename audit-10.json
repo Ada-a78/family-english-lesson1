@@ -1,0 +1,53 @@
+{
+  "policy_version": "lesson-focus-actual-audio-offline-backcheck-v2",
+  "targets": {
+    "visit": {
+      "expected_ipa": "/ˈvɪzɪt/"
+    },
+    "visited": {
+      "expected_ipa": "/ˈvɪzɪtɪd/"
+    }
+  },
+  "actual_synthesis_policy": "plain reviewed English lexical item; never whole-word forced IPA",
+  "voices_by_target": {
+    "visit": "Samantha",
+    "visited": "Samantha"
+  },
+  "sequence_sent_to_offline_asr": [
+    "visit",
+    "visited",
+    "visit",
+    "visited"
+  ],
+  "accepted_asr_labels": {
+    "visit": [
+      "visit"
+    ],
+    "visited": [
+      "visited"
+    ]
+  },
+  "recognized_words": [
+    "visit",
+    "visited",
+    "visit",
+    "visited"
+  ],
+  "checks": {
+    "visit_twice": true,
+    "visited_twice": true,
+    "no_rejected_confusion": true
+  },
+  "rejected_confusions": [
+    "wok",
+    "wood",
+    "word",
+    "work",
+    "worked",
+    "worm",
+    "would"
+  ],
+  "network_audio_upload": false,
+  "audio_saved_for_parent_spot_check": "发音校准/visit-visited-交付前发音校准.m4a",
+  "status": "passed"
+}

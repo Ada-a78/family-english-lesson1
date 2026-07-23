@@ -8,11 +8,12 @@
     "lesson_delta: Unit 1 Lesson 1 教材第2–4页（PDF第8–10页）",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 102,
+  "synthesis_context_count": 104,
   "proper_noun_occurrence_count": 45,
   "language_switch_counts": {
-    "zh-CN": 31,
-    "en-US": 14
+    "zh-CN": 22,
+    "en-US": 19,
+    "mixed": 4
   },
   "glossary": [
     {
@@ -24,6 +25,8 @@
       "origin_language": "en-US",
       "verification_status": "verified",
       "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "routing_class": "established_english_form",
+      "speech_segments": [],
       "category": "person",
       "source_locations": [
         "全书人物表第1页；多课主对话",
@@ -40,6 +43,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "person",
       "source_locations": [
         "全书人物表第1页；Lesson 1",
@@ -56,6 +61,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "person",
       "source_locations": [
         "全书人物表第1页；Lesson 1",
@@ -74,6 +81,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "teacher",
       "source_locations": [
         "全书人物表第1页；Lesson 1",
@@ -90,6 +99,8 @@
       "origin_language": "en-US",
       "verification_status": "verified",
       "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "routing_class": "established_english_form",
+      "speech_segments": [],
       "category": "country",
       "source_locations": [
         "Unit 1 Lesson 1 与 Lesson 4",
@@ -100,12 +111,14 @@
     {
       "display": "Northeast China",
       "aliases": [],
-      "native_form": "中国东北",
-      "spoken_text": "中国东北",
-      "spoken_language": "zh-CN",
+      "native_form": "Northeast China",
+      "spoken_text": "Northeast China",
+      "spoken_language": "en-US",
       "origin_language": "zh-CN",
       "verification_status": "verified",
-      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "pronunciation_basis": "教材当前教授的是由既有英语词 northeast 与英语国名 China 构成的完整英语地理表达，按清晰通用美式英语朗读；中国东北仅作中文释义，不进入英文句子的语音轨",
+      "routing_class": "established_english_geographic_expression",
+      "speech_segments": [],
       "category": "region",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -122,6 +135,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "country",
       "source_locations": [
         "全书多课与书后 Word List",
@@ -138,6 +153,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "city",
       "source_locations": [
         "Unit 1 Lessons 1–2",
@@ -154,6 +171,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "city",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -164,12 +183,29 @@
     {
       "display": "Tianchi Lake",
       "aliases": [],
-      "native_form": "天池",
-      "spoken_text": "天池",
-      "spoken_language": "zh-CN",
-      "origin_language": "zh-CN",
+      "native_form": "长白山天池",
+      "spoken_text": "天池 | Lake",
+      "spoken_language": "mixed",
+      "origin_language": "zh-CN + en-US",
       "verification_status": "verified",
-      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "pronunciation_basis": "按教材表面组成和教学目标分段：Tianchi 是中文专名成分，按普通话“天池”朗读；Lake 是既有英语普通名词，按通用美式英语 /leɪk/ 朗读，禁止把整个短语翻成中文或全部按英语拼读",
+      "routing_class": "reviewed_mixed_surface_components",
+      "speech_segments": [
+        {
+          "display_text": "Tianchi",
+          "spoken_text": "天池",
+          "spoken_language": "zh-CN",
+          "pronunciation_basis": "中文来源专名成分，按普通话原名朗读"
+        },
+        {
+          "display_text": " Lake",
+          "spoken_text": "Lake",
+          "spoken_language": "en-US",
+          "expected_ipa": "/leɪk/",
+          "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+          "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/lake"
+        }
+      ],
       "category": "scenic_place",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -181,11 +217,28 @@
       "display": "Changbai Mountain",
       "aliases": [],
       "native_form": "长白山",
-      "spoken_text": "长白山",
-      "spoken_language": "zh-CN",
-      "origin_language": "zh-CN",
+      "spoken_text": "长白 | Mountain",
+      "spoken_language": "mixed",
+      "origin_language": "zh-CN + en-US",
       "verification_status": "verified",
-      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "pronunciation_basis": "按教材表面组成和教学目标分段：Changbai 是中文专名的拼音成分，按普通话“长白”朗读；Mountain 是既有英语普通名词，按通用美式英语 /ˈmaʊn.tən/ 朗读，禁止把整个短语替换成中文“长白山”或全部按英语拼读",
+      "routing_class": "reviewed_mixed_surface_components",
+      "speech_segments": [
+        {
+          "display_text": "Changbai",
+          "spoken_text": "长白",
+          "spoken_language": "zh-CN",
+          "pronunciation_basis": "中文来源专名的拼音成分，按普通话原名朗读"
+        },
+        {
+          "display_text": " Mountain",
+          "spoken_text": "Mountain",
+          "spoken_language": "en-US",
+          "expected_ipa": "/ˈmaʊn.tən/",
+          "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+          "source_url": "https://dictionary.cambridge.org/pronunciation/english/mountain"
+        }
+      ],
       "category": "scenic_place",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -202,6 +255,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "scenic_place",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -218,6 +273,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "city",
       "source_locations": [
         "Unit 1 Lesson 1",
@@ -234,6 +291,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "city",
       "source_locations": [
         "Unit 1 Lesson 1 Word Bank",
@@ -250,6 +309,8 @@
       "origin_language": "zh-CN",
       "verification_status": "verified",
       "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "routing_class": "native_non_english_name",
+      "speech_segments": [],
       "category": "city",
       "source_locations": [
         "Unit 1 Lesson 1 Word Bank",
@@ -332,8 +393,8 @@
         {
           "matched_form": "Northeast China",
           "display": "Northeast China",
-          "spoken_text": "中国东北",
-          "spoken_language": "zh-CN",
+          "spoken_text": "Northeast China",
+          "spoken_language": "en-US",
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "region"
@@ -363,20 +424,52 @@
         {
           "matched_form": "Tianchi Lake",
           "display": "Tianchi Lake",
-          "spoken_text": "天池",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
+          "spoken_text": "天池 | Lake",
+          "spoken_language": "mixed",
+          "origin_language": "zh-CN + en-US",
           "verification_status": "verified",
-          "category": "scenic_place"
+          "category": "scenic_place",
+          "speech_segments": [
+            {
+              "display_text": "Tianchi",
+              "spoken_text": "天池",
+              "spoken_language": "zh-CN",
+              "pronunciation_basis": "中文来源专名成分，按普通话原名朗读"
+            },
+            {
+              "display_text": " Lake",
+              "spoken_text": "Lake",
+              "spoken_language": "en-US",
+              "expected_ipa": "/leɪk/",
+              "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+              "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/lake"
+            }
+          ]
         },
         {
           "matched_form": "Changbai Mountain",
           "display": "Changbai Mountain",
-          "spoken_text": "长白山",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
+          "spoken_text": "长白 | Mountain",
+          "spoken_language": "mixed",
+          "origin_language": "zh-CN + en-US",
           "verification_status": "verified",
-          "category": "scenic_place"
+          "category": "scenic_place",
+          "speech_segments": [
+            {
+              "display_text": "Changbai",
+              "spoken_text": "长白",
+              "spoken_language": "zh-CN",
+              "pronunciation_basis": "中文来源专名的拼音成分，按普通话原名朗读"
+            },
+            {
+              "display_text": " Mountain",
+              "spoken_text": "Mountain",
+              "spoken_language": "en-US",
+              "expected_ipa": "/ˈmaʊn.tən/",
+              "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+              "source_url": "https://dictionary.cambridge.org/pronunciation/english/mountain"
+            }
+          ]
         },
         {
           "matched_form": "Beijicun",
@@ -450,19 +543,13 @@
         {
           "matched_form": "Northeast China",
           "display": "Northeast China",
-          "spoken_text": "中国东北",
-          "spoken_language": "zh-CN",
+          "spoken_text": "Northeast China",
+          "spoken_language": "en-US",
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "region"
         }
       ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[1].target_model",
-      "text": "visited",
-      "matches": [],
       "segmentation_applied": true
     },
     {
@@ -472,30 +559,34 @@
         {
           "matched_form": "Tianchi Lake",
           "display": "Tianchi Lake",
-          "spoken_text": "天池",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
+          "spoken_text": "天池 | Lake",
+          "spoken_language": "mixed",
+          "origin_language": "zh-CN + en-US",
           "verification_status": "verified",
-          "category": "scenic_place"
+          "category": "scenic_place",
+          "speech_segments": [
+            {
+              "display_text": "Tianchi",
+              "spoken_text": "天池",
+              "spoken_language": "zh-CN",
+              "pronunciation_basis": "中文来源专名成分，按普通话原名朗读"
+            },
+            {
+              "display_text": " Lake",
+              "spoken_text": "Lake",
+              "spoken_language": "en-US",
+              "expected_ipa": "/leɪk/",
+              "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+              "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/lake"
+            }
+          ]
         }
       ],
       "segmentation_applied": true
     },
     {
-      "context": "retrieval_practice.self_correction[2].target_model",
-      "text": "walked",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "retrieval_practice.self_correction[3].sentence_model",
       "text": "We all enjoyed our summer vacation.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[3].target_model",
-      "text": "enjoyed",
       "matches": [],
       "segmentation_applied": true
     },
@@ -592,8 +683,8 @@
         {
           "matched_form": "Northeast China",
           "display": "Northeast China",
-          "spoken_text": "中国东北",
-          "spoken_language": "zh-CN",
+          "spoken_text": "Northeast China",
+          "spoken_language": "en-US",
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "region"
@@ -776,8 +867,8 @@
         {
           "matched_form": "Northeast China",
           "display": "Northeast China",
-          "spoken_text": "中国东北",
-          "spoken_language": "zh-CN",
+          "spoken_text": "Northeast China",
+          "spoken_language": "en-US",
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "region"
@@ -900,12 +991,6 @@
       "segmentation_applied": true
     },
     {
-      "context": "vocabulary[1].headword_repeat",
-      "text": "wonderful",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "vocabulary[2].headword",
       "text": "exciting",
       "matches": [],
@@ -920,12 +1005,6 @@
     {
       "context": "vocabulary[2].sentence",
       "text": "The trip was exciting.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "vocabulary[2].headword_repeat",
-      "text": "exciting",
       "matches": [],
       "segmentation_applied": true
     },
@@ -948,12 +1027,6 @@
       "segmentation_applied": true
     },
     {
-      "context": "vocabulary[3].headword_repeat",
-      "text": "go swimming",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "vocabulary[4].headword",
       "text": "visit a museum",
       "matches": [],
@@ -972,12 +1045,6 @@
       "segmentation_applied": true
     },
     {
-      "context": "vocabulary[4].headword_repeat",
-      "text": "visit a museum",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "vocabulary[5].headword",
       "text": "play on a beach",
       "matches": [],
@@ -992,12 +1059,6 @@
     {
       "context": "vocabulary[5].sentence",
       "text": "The children played on the beach.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "vocabulary[5].headword_repeat",
-      "text": "play on a beach",
       "matches": [],
       "segmentation_applied": true
     },
@@ -1056,6 +1117,66 @@
     {
       "context": "grammar[3].examples[2]",
       "text": "go → went; have → had",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.intro[2].english",
+      "text": "did",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[1]",
+      "text": "Where did you go?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[1][1].english",
+      "text": "did go",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[1][3].english",
+      "text": "did went",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[2]",
+      "text": "What did you do?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[2][1].english",
+      "text": "did do",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[2][3].english",
+      "text": "did did",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[3]",
+      "text": "How did you get there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[3][1].english",
+      "text": "did get",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "tense_inventory.did_rule.explanations[3][3].english",
+      "text": "did got",
       "matches": [],
       "segmentation_applied": true
     },
@@ -1246,8 +1367,8 @@
         {
           "matched_form": "Northeast China",
           "display": "Northeast China",
-          "spoken_text": "中国东北",
-          "spoken_language": "zh-CN",
+          "spoken_text": "Northeast China",
+          "spoken_language": "en-US",
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "region"
@@ -1262,11 +1383,27 @@
         {
           "matched_form": "Tianchi Lake",
           "display": "Tianchi Lake",
-          "spoken_text": "天池",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
+          "spoken_text": "天池 | Lake",
+          "spoken_language": "mixed",
+          "origin_language": "zh-CN + en-US",
           "verification_status": "verified",
-          "category": "scenic_place"
+          "category": "scenic_place",
+          "speech_segments": [
+            {
+              "display_text": "Tianchi",
+              "spoken_text": "天池",
+              "spoken_language": "zh-CN",
+              "pronunciation_basis": "中文来源专名成分，按普通话原名朗读"
+            },
+            {
+              "display_text": " Lake",
+              "spoken_text": "Lake",
+              "spoken_language": "en-US",
+              "expected_ipa": "/leɪk/",
+              "pronunciation_basis": "既有英语普通名词，按清晰通用美式英语朗读",
+              "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/lake"
+            }
+          ]
         },
         {
           "matched_form": "Beijicun",

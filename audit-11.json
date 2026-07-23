@@ -1,0 +1,73 @@
+{
+  "policy_version": "self-correction-final-pcm-offline-backcheck-v1",
+  "item_count": 3,
+  "raw_ipa_sent_to_ordinary_tts": false,
+  "network_audio_upload": false,
+  "items": [
+    {
+      "target": "visited",
+      "expected_ipa": "/ˈvɪzɪtɪd/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/visited",
+      "accepted_asr_labels": [
+        "visited"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "visited",
+        "visited"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "ddbf912ef60992135bd6258a1a05d6dfb2ec95f5745c12361f4511623c49f52b",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    },
+    {
+      "target": "walked",
+      "expected_ipa": "/wɔkt/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/walked",
+      "accepted_asr_labels": [
+        "walked"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "walked",
+        "walked"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "03db4810cc529a5d729bb63b07855849646e2958604b39c26312f5bf4f72c389",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    },
+    {
+      "target": "enjoyed",
+      "expected_ipa": "/ɪnˈdʒɔɪd/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/enjoyed",
+      "accepted_asr_labels": [
+        "enjoyed"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "[unk]",
+        "enjoyed",
+        "enjoyed"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "4ebf8bb9537b51588218bd77d321dc47fa6af985c826316015367f125e561d97",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    }
+  ],
+  "status": "passed"
+}

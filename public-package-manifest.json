@@ -1,8 +1,11 @@
 {
   "slug": "lesson1",
-  "version": "latest-l2-standard-20260721-v1",
-  "master_video": "lesson1-latest-l2-standard-20260721-v1.mp4",
-  "master_video_bytes": 22262499,
+  "version": "ipa-unified-past-inventory-20260724-v2",
+  "master_video": "lesson1-ipa-unified-past-inventory-20260724-v2.mp4",
+  "master_video_bytes": 23217666,
+  "source_master_video_bytes": 28958589,
+  "public_video_transcoded": true,
+  "hosting_single_file_limit_bytes": 26214400,
   "interactive_speed_buttons": [
     0.5,
     0.75,
@@ -15,5 +18,5 @@
   "default_speed": 1,
   "seek_seconds": 15,
   "ascii_public_asset_paths": true,
-  "copied_asset_count": 37
+  "copied_asset_count": 38
 }
